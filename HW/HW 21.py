@@ -2,7 +2,7 @@ file1 = open('src_14.txt', encoding='utf-8')
 file2 = open('src_14_2.txt', 'w', encoding='utf-8')
 
 cb = 0
-p = '{:<15}{:1}'
+p = '{:<20}{:1}'
 
 for line in file1:
     # Разбиваем каждую строку на список строк
